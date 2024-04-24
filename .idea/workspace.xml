@@ -4,11 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99b3f303-ff5e-4dfb-ac46-d61e2cb44ea6" name="Changes" comment="" />
+    <list default="true" id="99b3f303-ff5e-4dfb-ac46-d61e2cb44ea6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/drivers/geckodriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/drivers/selenium-server-4.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/constants/AssertionMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/constants/LocatorConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ElectronicsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/FirstPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/TVPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ElectronicsPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FirstPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TVPageTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -25,12 +53,98 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.ElectronicsPageTest.executor": "Run",
+    "TestNG.ElectronicsPageTest.testListSize.executor": "Run",
+    "TestNG.ElectronicsPageTest.testTVButton.executor": "Run",
+    "TestNG.FirstPageTest.executor": "Run",
+    "TestNG.FirstPageTest.testElectronicsButton.executor": "Run",
+    "TestNG.TVPageTest.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/robert/Desktop/Software Testing/noutPOMTest/src/drivers",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/drivers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.TVPageTest">
+    <configuration name="ElectronicsPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="noutPOMTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ElectronicsPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElectronicsPageTest.testListSize" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="noutPOMTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ElectronicsPageTest" />
+      <option name="METHOD_NAME" value="testListSize" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElectronicsPageTest.testTVButton" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="noutPOMTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ElectronicsPageTest" />
+      <option name="METHOD_NAME" value="testTVButton" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstPageTest.testElectronicsButton" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="noutPOMTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FirstPageTest" />
+      <option name="METHOD_NAME" value="testElectronicsButton" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TVPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="noutPOMTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TVPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TVPageTest" />
+        <item itemvalue="TestNG.ElectronicsPageTest" />
+        <item itemvalue="TestNG.ElectronicsPageTest.testListSize" />
+        <item itemvalue="TestNG.ElectronicsPageTest.testTVButton" />
+        <item itemvalue="TestNG.FirstPageTest.testElectronicsButton" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -47,7 +161,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713980938908</updated>
-      <workItem from="1713980940053" duration="2000" />
+      <workItem from="1713980940053" duration="8655000" />
     </task>
     <servers />
   </component>
