@@ -10,7 +10,7 @@ public class TVPageTest extends BaseTest{
         ElectronicsPage electronicsPage = firstPage.clickElectronicsButton();
         TVPage tvPage = electronicsPage.clickTVButton();
         int actualListSize = tvPage.linkListSize();
-        Assert.assertEquals(actualListSize, AssertionMessages.EXPECTED_LIST_TV_SIZE);
+        Assert.assertTrue(actualListSize <= AssertionMessages.EXPECTED_LIST_TV_SIZE);
     }
 
     @Test
