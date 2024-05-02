@@ -9,10 +9,10 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-public class FirstPage extends BasePage{
+public class HomePage extends BasePage{
     private By Electronics = By.id(LocatorConstants.ELECTRONICS_ID);
 
-    public FirstPage(WebDriver driver){
+    public HomePage(WebDriver driver){
         this.driver = driver;
     }
 

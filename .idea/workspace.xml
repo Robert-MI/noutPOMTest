@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99b3f303-ff5e-4dfb-ac46-d61e2cb44ea6" name="Changes" comment="first commit of homework">
+    <list default="true" id="99b3f303-ff5e-4dfb-ac46-d61e2cb44ea6" name="Changes" comment="List test fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/FirstPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ElectronicsPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ElectronicsPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FirstPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomePageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TVPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TVPageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +51,9 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Docker.docker-compose.yml.edge: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.firefox: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml: Compose Deployment.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;TestNG.ElectronicsPageTest.executor&quot;: &quot;Run&quot;,
@@ -53,15 +61,21 @@
     &quot;TestNG.ElectronicsPageTest.testTVButton.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.FirstPageTest.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.FirstPageTest.testElectronicsButton.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.HomePageTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.HomePageTest.testElectronicsButton.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.TVPageTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TVPageTest.testListSize.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/robert/Desktop/Software Testing/noutPOMTest/src/drivers&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/robert/Documents/year 4/Semester 2/testing/WordleTest&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -82,34 +96,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ElectronicsPageTest.testListSize" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="noutPOMTest" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ElectronicsPageTest" />
-      <option name="METHOD_NAME" value="testListSize" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="HomePageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ElectronicsPageTest.testTVButton" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomePageTest.testElectronicsButton" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="noutPOMTest" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ElectronicsPageTest" />
-      <option name="METHOD_NAME" value="testTVButton" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstPageTest.testElectronicsButton" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="noutPOMTest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstPageTest" />
+      <option name="MAIN_CLASS_NAME" value="HomePageTest" />
       <option name="METHOD_NAME" value="testElectronicsButton" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -129,21 +130,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.TVPageTest" />
+        <item itemvalue="TestNG.HomePageTest" />
         <item itemvalue="TestNG.ElectronicsPageTest" />
-        <item itemvalue="TestNG.ElectronicsPageTest.testListSize" />
-        <item itemvalue="TestNG.ElectronicsPageTest.testTVButton" />
-        <item itemvalue="TestNG.FirstPageTest.testElectronicsButton" />
+        <item itemvalue="TestNG.HomePageTest.testElectronicsButton" />
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
       </set>
     </attachedChunks>
   </component>
@@ -156,7 +171,9 @@
       <option name="presentableId" value="Default" />
       <updated>1713980938908</updated>
       <workItem from="1713980940053" duration="9576000" />
-      <workItem from="1714035173589" duration="317000" />
+      <workItem from="1714035173589" duration="965000" />
+      <workItem from="1714661426781" duration="5208000" />
+      <workItem from="1714669362327" duration="321000" />
     </task>
     <task id="LOCAL-00001" summary="first commit of homework">
       <option name="closed" value="true" />
@@ -166,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713990012364</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="List test fix">
+      <option name="closed" value="true" />
+      <created>1714035511913</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714035511914</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +199,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit of homework" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit of homework" />
+    <MESSAGE value="List test fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="List test fix" />
   </component>
 </project>

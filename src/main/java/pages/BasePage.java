@@ -14,10 +14,10 @@ public class BasePage {
     protected WebDriver driver;
     private By noutButton = By.className(LocatorConstants.NOUT_CLASS_NAME);
 
-    public FirstPage clickToBasePage(){
+    public HomePage clickToBasePage(){
         WebElement button = new WebDriverWait(driver, Duration.ofSeconds(10))
                 .until(ExpectedConditions.elementToBeClickable(noutButton));
         button.click();
-        return new FirstPage(driver);
+        return new HomePage(driver);
     }
 }

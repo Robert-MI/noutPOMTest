@@ -7,7 +7,7 @@ import pages.TVPage;
 public class TVPageTest extends BaseTest{
     @Test
     public void testListSize(){
-        ElectronicsPage electronicsPage = firstPage.clickElectronicsButton();
+        ElectronicsPage electronicsPage = homePage.clickElectronicsButton();
         TVPage tvPage = electronicsPage.clickTVButton();
         int actualListSize = tvPage.linkListSize();
         Assert.assertTrue(actualListSize <= AssertionMessages.EXPECTED_LIST_TV_SIZE);
@@ -15,7 +15,7 @@ public class TVPageTest extends BaseTest{
 
     @Test
     public void testToBasePageButton(){
-        ElectronicsPage electronicsPage = firstPage.clickElectronicsButton();
+        ElectronicsPage electronicsPage = homePage.clickElectronicsButton();
         TVPage tvPage = electronicsPage.clickTVButton();
         tvPage.clickToBasePage();
         Assert.assertEquals(driver.getCurrentUrl(), AssertionMessages.EXPECTED_BASE_URL);
