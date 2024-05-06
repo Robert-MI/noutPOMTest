@@ -7,10 +7,10 @@ import org.openqa.selenium.WebElement;
 
 import java.util.List;
 
-public class TVPage extends BasePage{
-    private By linkList = By.className(LocatorConstants.LINK_LIST_TV_CLASS);
+public class KITCHENPage extends BasePage{
+    private By linkList = By.className(LocatorConstants.LINK_LIST_KITCHEN_CLASS);
 
-    public TVPage(WebDriver driver){
+    public KITCHENPage(WebDriver driver){
         this.driver = driver;
     }
 

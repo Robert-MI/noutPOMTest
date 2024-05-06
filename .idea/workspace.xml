@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99b3f303-ff5e-4dfb-ac46-d61e2cb44ea6" name="Changes" comment="List test fix">
+    <list default="true" id="99b3f303-ff5e-4dfb-ac46-d61e2cb44ea6" name="Changes" comment="Added RemoteWebDriver Implementation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/FirstPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/constants/AssertionMessages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/constants/AssertionMessages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/constants/LocatorConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/constants/LocatorConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ElectronicsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ElectronicsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/TVPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/KITCHENPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ElectronicsPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ElectronicsPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FirstPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomePageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TVPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TVPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TVPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/KITCHENPageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,42 +49,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Docker.docker-compose.yml.edge: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.docker-compose.yml.firefox: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.docker-compose.yml: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.ElectronicsPageTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ElectronicsPageTest.testListSize.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ElectronicsPageTest.testTVButton.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.FirstPageTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.FirstPageTest.testElectronicsButton.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.HomePageTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.HomePageTest.testElectronicsButton.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TVPageTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TVPageTest.testListSize.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/robert/Documents/year 4/Semester 2/testing/WordleTest&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Docker.docker-compose.yml.edge: Compose Deployment.executor": "Run",
+    "Docker.docker-compose.yml.firefox: Compose Deployment.executor": "Run",
+    "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.ElectronicsPageTest.executor": "Run",
+    "TestNG.ElectronicsPageTest.testListSize.executor": "Run",
+    "TestNG.ElectronicsPageTest.testTVButton.executor": "Run",
+    "TestNG.FirstPageTest.executor": "Run",
+    "TestNG.FirstPageTest.testElectronicsButton.executor": "Run",
+    "TestNG.HomePageTest.executor": "Run",
+    "TestNG.HomePageTest.testElectronicsButton.executor": "Run",
+    "TestNG.KITCHENPageTest.executor": "Run",
+    "TestNG.TVPageTest.executor": "Run",
+    "TestNG.TVPageTest.testListSize.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/robert/Desktop/Software Testing/Wikipedia_e2e",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TVPageTest">
+  <component name="RunManager" selected="TestNG.KITCHENPageTest">
     <configuration name="ElectronicsPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="noutPOMTest" />
       <option name="PACKAGE_NAME" value="" />
@@ -119,10 +120,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TVPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="KITCHENPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="noutPOMTest" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TVPageTest" />
+      <option name="MAIN_CLASS_NAME" value="KITCHENPageTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -146,7 +147,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TVPageTest" />
+        <item itemvalue="TestNG.KITCHENPageTest" />
         <item itemvalue="TestNG.HomePageTest" />
         <item itemvalue="TestNG.ElectronicsPageTest" />
         <item itemvalue="TestNG.HomePageTest.testElectronicsButton" />
@@ -173,7 +174,10 @@
       <workItem from="1713980940053" duration="9576000" />
       <workItem from="1714035173589" duration="965000" />
       <workItem from="1714661426781" duration="5208000" />
-      <workItem from="1714669362327" duration="321000" />
+      <workItem from="1714669362327" duration="839000" />
+      <workItem from="1714670412717" duration="628000" />
+      <workItem from="1714836237834" duration="2148000" />
+      <workItem from="1714995855552" duration="682000" />
     </task>
     <task id="LOCAL-00001" summary="first commit of homework">
       <option name="closed" value="true" />
@@ -191,7 +195,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714035511914</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added RemoteWebDriver Implementation">
+      <option name="closed" value="true" />
+      <created>1714670006155</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714670006155</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +212,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit of homework" />
     <MESSAGE value="List test fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="List test fix" />
+    <MESSAGE value="Added RemoteWebDriver Implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added RemoteWebDriver Implementation" />
   </component>
 </project>

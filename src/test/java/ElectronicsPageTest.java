@@ -8,7 +8,7 @@ public class ElectronicsPageTest extends BaseTest{
     public void testTVButton(){
         ElectronicsPage electronicsPage = homePage.clickElectronicsButton();
         electronicsPage.clickTVButton();
-        Assert.assertEquals(driver.getCurrentUrl(), AssertionMessages.EXPECTED_TV_URL);
+        Assert.assertEquals(driver.getCurrentUrl(), AssertionMessages.EXPECTED_KITCHEN_URL);
     }
 
     @Test
